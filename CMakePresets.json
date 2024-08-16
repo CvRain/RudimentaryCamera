@@ -1,0 +1,22 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 20,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "windows-msvc-x64",
+      "displayName": "Default",
+      "description": "Default build type",
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "installDir": "${sourceDir}/install",
+      "generator": "Ninja",
+      "cacheVariables": {
+        "CMAKE_CXX_STANDARD": "20",
+        "CMAKE_PREFIX_PATH": "D:\\DevKit\\Qt\\6.7.2\\msvc2019_64"
+      }
+    }
+  ]
+}
